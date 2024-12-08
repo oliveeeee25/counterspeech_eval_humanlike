@@ -8,8 +8,10 @@ AI-generated counterspeech:
 The AI-generated counterspeech is produced through four methods: Prompt, Prompt and Select, Finetune, and Constrained. We obtain 54,136 AI-generated counterspeech (14,799,19,436 14,215, and 5,686 respectively)
 
 Human-written counterspeech is collected from two primary sources:
+
 Genuine Human-Written Counterspeech:
 Collected from Reddit, this subset includes authentic counterspeech organically created by platform users. The total size of this dataset is 14,973 entries.
+
 Counterspeech from Crowd Workers:
 Sourced from the Benchmark dataset (Qian et al., 2019), this component contains counterspeech written by crowd workers. A sample of 14,208 entries is included in the dataset.
 
@@ -21,7 +23,7 @@ Columns: 'text': counterspeech; 'category': 1-AI, 0-human.
 | `llama_trl_combined.json`    | 1-5,686; 0-5,678 |                
 | `prompt_combined.json`       | 1-14,799; 0-14,786 |    
 | `prompt_select_combine.json` | 1-19,436; 0-19,415 |  
-| `user_wrriten_Reddit.json` | 0-14,973 |
+| `user_written_Reddit.json` | 0-14,973 |
 
 # Citation 
 Song, X., Mamidisetty, S., Blanco, E., & Hong, L. (2024). Assessing the Human Likeness of AI-Generated Counterspeech. arXiv preprint arXiv:2410.11007.
