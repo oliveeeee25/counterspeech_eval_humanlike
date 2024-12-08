@@ -19,8 +19,8 @@ Sourced from the Benchmark dataset (Qian et al., 2019), this component contains 
 Columns: 'text': counterspeech; 'category': 1-AI, 0-human.
 | File Name                   | Distribution        | 
 |-----------------------------|---------------------|
-| `llama_fintune_combined.json` | 1-14,215; 0-14,202|                                   
-| `llama_trl_combined.json`    | 1-5,686; 0-5,678 |                
+| `llama_finetune_combined.json` | 1-14,215; 0-14,202|                                   
+| `llama_constrained_combined.json`    | 1-5,686; 0-5,678 |                
 | `prompt_combined.json`       | 1-14,799; 0-14,786 |    
 | `prompt_select_combine.json` | 1-19,436; 0-19,415 |  
 | `user_written_Reddit.json` | 0-14,973 |
