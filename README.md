@@ -16,7 +16,7 @@ Counterspeech from Crowd Workers:
 Sourced from the Benchmark dataset (Qian et al., 2019), this component contains counterspeech written by crowd workers. A sample of 14,208 entries is included in the dataset.
 
 # File Description
-Columns: 'text': counterspeech; 'category': 1-AI, 0-human.
+Columns: 'text': counterspeech; 'category': 1 (AI-generated), 0 (human-written).
 | File Name                   | Distribution        | 
 |-----------------------------|---------------------|
 | `llama_finetune_combined.json` | 1-14,215; 0-14,202|                                   
